@@ -29,13 +29,13 @@ import {
   Check
 } from 'lucide-react';
 
-// Updated import paths to match your file structure
-import NavigationBar from './components/NavigationBar';
-import HomePage from './pages/HomePage';
-import PortfolioPage from './pages/PortfolioPage';
-import ContactPage from './pages/ContactPage';
-import TimelinePage from './pages/TimelinePage';
-import ServicesPage from './pages/ServicesPage';
+// Update these import paths
+import NavigationBar from './components/Navigation/NavigationBar';
+import HomePage from './components/Pages/HomePage';
+import PortfolioPage from './components/Pages/PortfolioPage/PortfolioPage';
+import ContactPage from './components/Pages/ContactPage';
+import TimelinePage from './components/Pages/TimelinePage';
+import ServicesPage from './components/Pages/ServicesPage/ServicesPage';
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState('home');
